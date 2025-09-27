@@ -3,5 +3,17 @@
 ## Como rodar com Docker
 
 ```bash
-docker build -t exercicios_gui .
-docker run --rm -v $(pwd):/workspace -w /workspace exercicios_gui ex_1/main.py
+
+# Rodar Conteiner:
+
+docker compose build
+
+# Rodar Exercicios:
+
+Exercicio 1: docker compose run --rm exercicios ex_1/main.py
+
+Exercicio 2: docker compose run --rm exercicios ex_2/main.py
+
+Exercicio 5: docker compose run --rm exercicios ex_5/main.py
+
+Exercicio 6: docker compose run --rm exercicios ex_6/main.py
