@@ -1,0 +1,5 @@
+Cifrar (msg.enc) com a chave pública garante que somente o dono da chave privada pode ler.
+Assinar (msg.sig) com a chave privada permite que qualquer pessoa com a chave pública valide a origem.
+Quem recebe msg.enc precisa da privada para decifrar, mas não precisa da assinatura.
+Quem recebe msg.sig precisa da pública para verificar, mas não consegue ler o conteúdo secreto apenas com a assinatura.
+Cifrar protege confidencialidade; assinar protege autenticidade e integridade.
